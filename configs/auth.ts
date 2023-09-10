@@ -21,7 +21,6 @@ export const authConfig: AuthOptions = {
                     const { password, ...userWithoutPass } = currentUser
                     return userWithoutPass as User
                 }
-
                 return null
             }
         })
